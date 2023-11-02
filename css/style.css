@@ -7,3 +7,109 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+/* 
+    GENERAL
+*/
+
+.container{
+    max-width: 75%;
+    margin: 0 auto;
+}
+
+.my-col-1-3{
+    width: calc(100% / 3) * 1;
+}
+
+img{
+    width: 100%;
+    display: block;
+}
+
+/* 
+    HEADER
+*/
+
+header{
+    /* min-height: 200px; */
+    background-color: rgb(238, 114, 46);
+}
+
+.header-content{
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header-content .header-logo{
+    width: 200px;
+}
+
+.header .symbol > *{
+    padding-left: 5px;
+}
+
+/* 
+    MAIN
+*/
+
+.container-main{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.card{
+    position: relative;
+}
+
+.container-main .card-img{
+    width: 400px;
+    
+}
+
+/* 
+    DEBUG
+*/
+
+.debug{
+    border: 2px solid black;
+}
+
+.heart-over{
+    background-color: white;
+    padding: 10px;
+    font-size: 1.5em;
+    position: absolute;
+    top: 10%;
+    right: 0%;
+}
+
+.disc-sust{
+    padding: 10px;
+    position: absolute;
+    top: 80%;
+    left: 0;
+}
+
+.discount{
+    background-color: red;
+    color: white;   
+}
+
+.sustainability{
+    background-color: green;
+    color: white;
+}
+
+/* 
+    FOOTER
+*/
+
+footer{
+    background-color: rgb(26, 26, 26);
+}
+
+.footer-content{
+    color: white;
+}
